@@ -19,7 +19,7 @@ namespace HomeWork.Test
                 new Tuple<int, string>(100, "(PM)")
             };
            
-            Assert.All(homeWorkLib.GetFizzBuzzValueVersionTwo(100, combinations), result => Assert.Equal("1", result));
+            Assert.All(homeWorkLib.GetFizzBuzzValueVersionTwo(100, combinations), result => Assert.Equal("15", result));
         }
     }
 }
